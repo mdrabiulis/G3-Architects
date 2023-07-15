@@ -1,0 +1,71 @@
+/* == google fonts>Work Sans  == */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+/* ==  menu-container == */
+
+.menu-container{
+    background-color: rgb(235, 203, 163);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #080808;
+    width: ;
+
+}
+
+/* ======= */
+
+
+
+
+
+
+/* ==  mobile ==== */
+
+@media screen and (max-width: 576px){
+    .menu-container{
+        flex-direction: column;
+}
+
+    ul{
+        gap: 4px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+}
+/* ======================= */
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    
+}
