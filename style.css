@@ -150,11 +150,60 @@ main{
     padding-bottom: 20px;
     
 }
-
-
 /* ======== */
 
 
+
+/* == Features you will
+love & enjoy == */
+
+.features-enjoy-container{
+    display: flex;
+    margin-top: 140px;
+    gap: 130px;
+}
+
+
+.features-enjoy-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+
+.features-enjoy-description{
+    color: #727272;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+
+.features-enjoy-item{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+    
+
+.features-enjoy-item-title-description{
+    color: #727272;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}
+
+.features-enjoy-image{
+    height: 100%;
+    
+ }
+/* ======= */
 
 
 
@@ -172,7 +221,7 @@ main{
         padding-top: 30px;
     }
 
-    .banner img{
+    .banner img, .features-enjoy-image img{
         width: 100%;
     }
 
@@ -198,6 +247,13 @@ main{
             margin-bottom: 30px;
             padding-bottom: 30px;
          }
+
+
+         .features-enjoy-container{
+            flex-direction: column;
+            gap: 50px;
+
+    
 }
 /* ======================= */
 
@@ -213,4 +269,15 @@ main{
             margin-bottom: 40px;
             padding-bottom: 40px;
     }
+    .features-enjoy-container{
+        flex-direction: column;
+        gap: 70px;
+     }
+    .features-enjoy-image img{
+        width: 100%;
+        
+        
+        
+       
+     }
 }
