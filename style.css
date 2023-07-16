@@ -377,6 +377,11 @@ love & enjoy == */
         padding: 10px;
         gap: 50px;
     }
+
+    .sponsors-item img{
+        width: 200px;
+        padding-left: 90px;
+    }
     
 }
 /* ======================= */
