@@ -40,10 +40,14 @@ nav li{
 nav a{
     text-decoration: none;
     color: #080808;
-    width: ;
+    
 
 }
 /* ======= */
+
+
+
+
 
 
 /* ===  banner === */
@@ -59,7 +63,6 @@ nav a{
     justify-content: space-around;
 }
 
-
 .banner-title{
     color: #131313;
     text-align: center;
@@ -69,13 +72,11 @@ nav a{
     
 }
 
-
 .banner-description{
     color: #727272;
     text-align: center;
     margin: 20px;
 }
-
 
 .btn-primary{
     color: #FFF;
@@ -88,8 +89,7 @@ nav a{
     cursor: pointer;
   }
 
-
-img{
+  .banner img{
     width: 80%;
     margin: 20px;
   
@@ -97,6 +97,62 @@ img{
 
 /* ======= */
 
+
+
+/* == main-section start === */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.our-features-container{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+.our-teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    box-shadow: 5px 0px 10px 10px #888888;
+    
+}
+
+.features-container{
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.list{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.of-our{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.features{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.features-description{
+    color: #727272;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+/* ======== */
 
 
 
@@ -115,7 +171,8 @@ img{
         padding-left: 20px;
         padding-top: 30px;
     }
-    img{
+
+    .banner img{
         width: 100%;
     }
 
@@ -127,11 +184,33 @@ img{
         font-size: 1.10rem;
          padding: 18px 20px;}
 
+         .our-teams-img{
+            grid-template-columns: 1fr;
+            
+         }
+
+        .our-features-container{
+            flex-direction: column;
+            flex-direction: column-reverse;
+        }
+
+         .features-container{
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+         }
 }
 /* ======================= */
 
 
 
 @media screen and (min-width: 576px) and (max-width: 992px){
-    
+    .our-features-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .features-container{
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+    }
 }
