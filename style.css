@@ -201,8 +201,31 @@ love & enjoy == */
 
 .features-enjoy-image{
     height: 100%;
-    
  }
+
+.ten-years{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 340px;
+    padding: 40px;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years-title{
+    font-size: 4rem;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .ten-years-description{
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    margin: 24px;
+  }
+
 /* ======= */
 
 
@@ -213,7 +236,7 @@ love & enjoy == */
 @media screen and (max-width: 576px){
     .menu-container{
         flex-direction: column;
-}
+    }
 
     ul{
         gap: 4px;
@@ -233,30 +256,37 @@ love & enjoy == */
         font-size: 1.10rem;
          padding: 18px 20px;}
 
-         .our-teams-img{
+    .our-teams-img{
             grid-template-columns: 1fr;
             
          }
 
-        .our-features-container{
+    .our-features-container{
             flex-direction: column;
             flex-direction: column-reverse;
         }
 
-         .features-container{
+    .features-container{
             margin-bottom: 30px;
             padding-bottom: 30px;
          }
 
 
-         .features-enjoy-container{
+    .features-enjoy-container{
             flex-direction: column;
             gap: 50px;
-
+         }
     
+
+
+
+
+       
 }
 /* ======================= */
 
+
+/* ==  tab/labtop ==== */
 
 
 @media screen and (min-width: 576px) and (max-width: 992px){
@@ -271,13 +301,18 @@ love & enjoy == */
     }
     .features-enjoy-container{
         flex-direction: column;
-        gap: 70px;
+        margin-top: 140px;
+        gap: 130px;
      }
+
     .features-enjoy-image img{
         width: 100%;
-        
-        
-        
        
      }
+
+
+
+
+
+
 }
