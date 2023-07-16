@@ -244,7 +244,6 @@ love & enjoy == */
     padding: 30px;
   }
 
-
 .card-title{
     font-size: 2.8rem;
     color: #424242;
@@ -253,7 +252,6 @@ love & enjoy == */
     text-align: center;
 
   }
-
 
 .card-description{
     font-weight: 600;
@@ -318,7 +316,6 @@ love & enjoy == */
             gap: 50px;
     }
     
-
     .ten-years{
         width: 80%;
     }
@@ -326,9 +323,10 @@ love & enjoy == */
     .card-item {
         flex-direction: column;
         gap: 30px;
+        padding: 20px;
     }
 
-       
+    
 }
 /* ======================= */
 
