@@ -164,6 +164,7 @@ love & enjoy == */
     padding-left: 20px;
     margin-top: 30px;
     margin-bottom: 45px;
+    
 }
 
 .features-enjoy-description{
@@ -261,7 +262,40 @@ love & enjoy == */
     text-align: center;
   }
 
+/* ---Our Sponsors ----- */
 
+.our-sponsors-container{
+    align-items: center;
+}
+
+
+.our-sponsors-item{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.our-sponsors-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.our-sponsors-description{
+    color: #727272;
+    margin: 16px 0px 16px;
+
+}
+  .sponsors-item{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    gap: 40px;
+
+
+
+
+
+  }
 
 
 /* ======= */
@@ -315,6 +349,14 @@ love & enjoy == */
             flex-direction: column;
             gap: 50px;
     }
+
+    .features-enjoy-title{
+        margin-left: 10px;
+    }
+
+    .features-enjoy-description{
+        margin: 25px;
+    }
     
     .ten-years{
         width: 80%;
@@ -326,6 +368,15 @@ love & enjoy == */
         padding: 20px;
     }
 
+    .our-sponsors-description{
+        margin: 10px;
+    }
+
+    .sponsors-item{
+        flex-direction: column;
+        padding: 10px;
+        gap: 50px;
+    }
     
 }
 /* ======================= */
@@ -356,6 +407,14 @@ love & enjoy == */
        
      }
 
+     .features-enjoy-title{
+        margin-left: 25px;
+    }
+
+    .features-enjoy-description{
+        margin: 25px;
+    }
+
      .card-item {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -364,6 +423,19 @@ love & enjoy == */
         gap: 20px;
     }
 
+    .our-sponsors-description{
+        margin: 10px;
+    }
+
+    .sponsors-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 150px;
+        padding: 50px;
+        border: 2px solid #FF900E;
+        border-radius: 8px;
+        margin: 40px;
+        
+    }
 
 
 
