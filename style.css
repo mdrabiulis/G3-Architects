@@ -8,8 +8,6 @@
     
 }
 
-
-
 /* ==  menu-container == */
 
 header{
@@ -44,9 +42,6 @@ nav a{
 
 }
 /* ======= */
-
-
-
 
 
 
@@ -111,7 +106,6 @@ main{
     padding-top: 100px;
 }
 
-
 .our-teams-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -125,7 +119,6 @@ main{
     padding-left: 70px;
     padding-right: 70px;
 }
-
 
 .list{
     color: #727272;
@@ -163,7 +156,6 @@ love & enjoy == */
     gap: 130px;
 }
 
-
 .features-enjoy-title{
     font-size: 2.8rem;
     font-weight: 700;
@@ -174,13 +166,11 @@ love & enjoy == */
     margin-bottom: 45px;
 }
 
-
 .features-enjoy-description{
     color: #727272;
     margin-top: 16px;
     margin-bottom: 30px;
 }
-
 
 .features-enjoy-item{
     padding: 30px;
@@ -189,8 +179,6 @@ love & enjoy == */
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-
-    
 
 .features-enjoy-item-title-description{
     color: #727272;
@@ -226,6 +214,58 @@ love & enjoy == */
     margin: 24px;
   }
 
+/* .some-facts-item{
+    text-align: left;
+    margin-left: 80px;
+}
+
+.some-facts-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    margin: 45px 0px 30px 0px ;
+}
+.some-facts-description{ 
+    color: #727272;
+    margin: 16px 0px 36px 0px ;
+
+}
+
+.card-item{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+  }
+
+
+.card-title{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+
+
+.card-description{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  } */
+
+
+
+
 /* ======= */
 
 
@@ -254,28 +294,29 @@ love & enjoy == */
 
     .btn-primary{
         font-size: 1.10rem;
-         padding: 18px 20px;}
+         padding: 18px 20px;
+    }
 
     .our-teams-img{
             grid-template-columns: 1fr;
             
-         }
+    }
 
     .our-features-container{
             flex-direction: column;
             flex-direction: column-reverse;
-        }
+    }
 
     .features-container{
             margin-bottom: 30px;
             padding-bottom: 30px;
-         }
+    }
 
 
     .features-enjoy-container{
             flex-direction: column;
             gap: 50px;
-         }
+    }
     
 
 
@@ -299,6 +340,7 @@ love & enjoy == */
             margin-bottom: 40px;
             padding-bottom: 40px;
     }
+
     .features-enjoy-container{
         flex-direction: column;
         margin-top: 140px;
