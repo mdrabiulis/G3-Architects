@@ -280,11 +280,11 @@ love & enjoy == */
     color: #131313;
 }
 
-.our-sponsors-description{
+  .our-sponsors-description{
     color: #727272;
     margin: 16px 0px 16px;
 
-}
+    }
   .sponsors-item{
     display: flex;
     margin-top: 50px;
@@ -296,6 +296,60 @@ love & enjoy == */
 
 
   }
+
+
+/* contact */
+
+
+.contact-containe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding: 40px 0px 40px;
+    align-items: center;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+.btn-input{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    gap: 20px;
+    padding: 10px;
+    margin: 3px 0px 5px;
+    border-radius: 5px;
+    
+}
+
+.btn-input-message{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    
+ 
+    
+}
+
+.contact-us{
+    align-items: center;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.useful-links a{
+    text-decoration:none;
+    color: #000;
+}
+
+.images img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
 
 
 /* ======= */
@@ -379,7 +433,7 @@ love & enjoy == */
     }
 
     .sponsors-item img{
-        width: 200px;
+        width: 180px;
         padding-left: 90px;
     }
     
