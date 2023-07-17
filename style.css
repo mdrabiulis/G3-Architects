@@ -437,6 +437,27 @@ love & enjoy == */
         padding-left: 90px;
     }
     
+    .contact-containe, .useful-links{
+        flex-direction: column;
+        margin: 30px 0px 30px;
+    }
+ 
+    .contact-us-title{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .btn-input{
+        width: 340px;
+    }
+
+    .follow-us{
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
 }
 /* ======================= */
 
@@ -496,6 +517,18 @@ love & enjoy == */
         
     }
 
+    .contact-containe{
+       flex-direction: column;
+       gap: 40px;
+    }
+
+    .contact-us-title{
+        margin-left: 10px;
+    }
+
+    .useful-links{
+        margin-right: 70px;
+    }
 
 
 }
