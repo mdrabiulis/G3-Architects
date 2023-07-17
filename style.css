@@ -307,7 +307,6 @@ love & enjoy == */
     margin-top: 200px;
     padding: 40px 0px 40px;
     align-items: center;
-    background-color: rgba(255, 144, 14, 0.10);
 }
 
 .btn-input{
@@ -351,6 +350,15 @@ love & enjoy == */
     margin-top: 20px;
 }
 
+.footer{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    }
+footer{
+    background-color: rgba(255, 144, 14, 0.10);
+
+}
 
 /* ======= */
 
